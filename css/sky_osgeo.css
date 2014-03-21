@@ -184,3 +184,7 @@ body {
   top: 0;
   right: 0;
 }
+
+.reveal section .monospace {
+  font-family: monospace;
+}
