@@ -188,3 +188,15 @@ body {
 .reveal section .monospace {
   font-family: monospace;
 }
+
+.reveal section img.figure, .reveal section img[src*="flickr.com"] {
+  margin: 10px;
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.50);
+  border: 2px solid black;
+  max-width: 800px;
+}
+
+.reveal section pre code{
+  padding: 10px;
+}
